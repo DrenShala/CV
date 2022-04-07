@@ -443,7 +443,7 @@ body{
 
 .ed-row.animate__fadeInDown{
     display: block;
-    --animate-duration: 2s;
+    --animate-duration: 1s;
 }
 
 @media(max-width: 767.5px){
@@ -456,5 +456,10 @@ body{
     .experience__column{
         margin-bottom: 2rem;
     }
+	
+    .ed-row.animate__fadeInDown{
+    display: block;
+    --animate-duration: 1.5s;
+}
 }
 
