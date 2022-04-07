@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dren Shala" />
+
+    <link rel="stylesheet" href="css/tether.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>My Personal Website</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Frontpage</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="nav-link btn"
+                type="button"
+                data-bs-toggle="offcanvas"
+                href="#contactForm"
+                role="button"
+                aria-controls="contactForm"
+              >
+                Contact
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-3"></div>
+        <div class="col-6 my-intro">
+          <div class="my-name">I'm Dren</div>
+          <div class="my-ambition"> I'm a new front-end web developer and I love to create simple but beautiful websites! </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <div class="d-grid col-12">
+            <button type="button" class="button abilities-button">
+              What I can do
+            </button>
+          </div>
+        </div>
+        <div class="col-4"></div>
+
+        <div class="row justify-content-center ab-row one animate__animated">
+          <div
+          id="abilities"
+          class="carousel slide"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="my-abilities ability">Anything you want</div>
+              <div class="my-abilities ab-description overflow-auto">
+                I like making great ideas come true! Anything you want, I'll try to make it as beautiful and on point as your idea of your
+                ideal website.
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="my-abilities ability">Beautiful and easy to use UI</div>
+              <div class="my-abilities ab-description overflow-auto">
+                I've always wanted to make websites that are easy to use for any user, designs that are easy on the eyes and that
+                dont make the user confused about where to find the content they are looking for.
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="my-abilities ability">Websites that run well on all devices</div>
+              <div class="my-abilities ab-description overflow-auto">
+                I know how to make your website look good in any sort of device,
+                 should it be used on a phone, a tablet, a PC or even a smart TV, it will look good!
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="my-abilities ability">Nice animations and transitions</div>
+              <div class="my-abilities ab-description overflow-auto">
+                I love animations and I love using a lot of them because it makes a website seem more interactive,
+                seeing something come from the side or zoom in or fade in to view makes the content even prettier to see!
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#abilities"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#abilities"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>                     
+      </div>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="contactForm"
+      aria-labelledby="contactFormLabel"
+      data-bs-scroll="true"
+    >
+      <div class="offcanvas-header">
+        <h3 class="offcanvas-title" id="contactFormLabel">Contact Me</h3>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <h4 class="direct-email">Direct Email</h4>
+        <form
+          class="contact-form"
+          action="mailto:dshala21@outlook.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="input">Your Name:</div>
+          <input class="name-input" type="text" name="Name" value="" />
+          <div class="input">Your message:</div>
+          <textarea
+            class="text-area"
+            name="Message"
+            rows="4"
+            cols="50"
+          ></textarea>
+          <input class="submit-message" type="submit" name="" />
+        </form>
+
+        <!----  Icons made by Freepik: https://www.freepik.com ,  downloded in Flaticon: www.flaticon.com -->
+        <div class="socialmedia-container">
+          <button type="button" class="btn btn-primary btn-sm socialmedia-icon">
+            <a href="https://www.facebook.com/dren.shala.sh" target="_blank"
+              ><img src="socials/facebook.png" class="socialmedia-img"
+            /></a>
+          </button>
+          <button type="button" class="btn btn-primary btn-sm socialmedia-icon">
+            <a href="https://github.com/DrenShala" target="_blank"
+              ><img src="socials/github.png" class="socialmedia-img"
+            /></a>
+          </button>
+          <button type="button" class="btn btn-primary btn-sm socialmedia-icon">
+            <a href="https://www.instagram.com/ddrenshala/" target="_blank"
+              ><img src="socials/instagram.png" class="socialmedia-img"
+            /></a>
+          </button>
+          <button type="button" class="btn btn-primary btn-sm socialmedia-icon">
+            <a
+              href="https://www.linkedin.com/in/dren-shala-283793220"
+              target="_blank"
+              ><img src="socials/linkedin.png" class="socialmedia-img"
+            /></a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <img class="image-pc" src="shape1.png" />
+    <img class="image-phones" src="shape2.png" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="java/tether.min.js"></script>
+    <script src="java/bootstrap.bundle.min.js"></script>
+    <script src="./java/java.js"></script>
+  </body>
+</html>
