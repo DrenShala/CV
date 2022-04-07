@@ -449,7 +449,7 @@ body{
 
 .ed-row.animate__fadeInDown{
     display: block;
-    --animate-duration: .5s;
+    --animate-duration: 2s;
 }
 
 @media(max-width: 767.5px){
