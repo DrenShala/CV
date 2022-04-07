@@ -353,14 +353,9 @@ body{
 }
 
 .experience__column, .work, .wrapper{
-    border: 1px solid #E0DDAA;
     background-color: rgba(20, 30, 39, .9);
     text-align: center;
     border-radius: 15px;
-}
-
-.wrapper{
-    border: 1px solid #E0DDAA;
 }
 
 .ex-icon{
@@ -420,7 +415,6 @@ body{
 
 .ed-col{
     background: rgba(20, 30, 39, .9);
-    border: 1px solid #E0DDAA;
     border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1.5rem;
@@ -463,3 +457,4 @@ body{
         margin-bottom: 2rem;
     }
 }
+
