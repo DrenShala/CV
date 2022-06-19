@@ -461,5 +461,8 @@ body{
     display: block;
     --animate-duration: 1.5s;
 }
-}
 
+	
+#abilities{
+    margin-bottom: 2rem;
+}
